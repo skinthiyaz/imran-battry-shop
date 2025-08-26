@@ -87,9 +87,29 @@ const BrandsSection = () => {
                 </div>
 
                 {/* CTA */}
-                <Button variant="outline" size="lg" className="w-full">
-                  View {brand.name} Batteries
-                </Button>
+                {brand.name === 'EXIDE' ? (
+                  <a 
+                    href="https://www.exideindustries.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full rounded-md border border-border px-4 py-2 text-sm font-medium text-foreground hover:bg-accent hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                  >
+                    View {brand.name} Batteries
+                  </a>
+                ) : brand.name === 'AMARON' ? (
+                  <a 
+                    href="https://www.amaron.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full rounded-md border border-border px-4 py-2 text-sm font-medium text-foreground hover:bg-accent hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                  >
+                    View {brand.name} Batteries
+                  </a>
+                ) : (
+                  <Button variant="outline" size="lg" className="w-full">
+                    View {brand.name} Batteries
+                  </Button>
+                )}
               </div>
             </div>
           ))}

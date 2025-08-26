@@ -134,7 +134,7 @@ const ContactSection = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="font-display font-semibold text-foreground">Inthyaz</h4>
-                    <p className="text-2xl font-display font-bold text-primary">77298 44661</p>
+                    <p className="text-2xl font-display font-bold text-primary">83319 38147</p>
                   </div>
                   <Button variant="call" size="sm">
                     <Phone className="w-4 h-4" />
@@ -178,22 +178,26 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Emergency */}
-            <div className="bg-destructive/10 border border-destructive/20 rounded-xl p-6">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-destructive/20 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Zap className="w-6 h-6 text-destructive animate-charge" />
-                </div>
-                <h4 className="font-display font-bold text-lg text-foreground mb-2">
-                  Emergency Service
-                </h4>
-                <p className="text-muted-foreground text-sm mb-4">
-                  Battery dead? We'll be there in 30 minutes
-                </p>
-                <Button variant="destructive" size="lg" className="w-full">
-                  Emergency Call
-                </Button>
-              </div>
+            {/* Quick Actions */}
+            <div className="flex gap-3">
+              <a 
+                href="tel:+919133939199" 
+                className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
+                aria-label="Call Bhart Traders now"
+              >
+                <Phone className="w-5 h-5" />
+                Call Now
+              </a>
+              <a 
+                href="https://wa.me/919133939199?text=Hi%20Bhart%20Traders%2C%20I%20need%20battery%20help." 
+                className="inline-flex items-center gap-2 rounded-md border border-primary px-6 py-3 font-semibold text-primary hover:bg-primary hover:text-primary-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
+                aria-label="Chat on WhatsApp with Bhart Traders"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MessageSquare className="w-5 h-5" />
+                Chat on WhatsApp
+              </a>
             </div>
           </div>
         </div>

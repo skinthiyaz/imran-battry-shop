@@ -43,31 +43,21 @@ const HeroSection = () => {
               </p>
             </div>
 
-            {/* Quick Search */}
-            <div className="bg-card/80 p-6 rounded-xl border border-border shadow-card backdrop-blur-sm">
-              <h3 className="font-display font-bold text-lg mb-4 text-foreground">Find Your Battery</h3>
-              <div className="flex gap-3">
-                <Input 
-                  placeholder="Enter your vehicle model..." 
-                  className="flex-1 bg-background border-border"
-                />
-                <Button variant="hero" size="lg">
-                  <Search className="w-4 h-4" />
-                  Search
-                </Button>
-              </div>
-            </div>
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="xl">
+              <a href="#contact" className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all" aria-label="Emergency jump start">
                 <PhoneCall className="w-5 h-5" />
                 Emergency Jump Start
-              </Button>
-              <Button variant="outline" size="xl">
-                <MapPin className="w-5 h-5" />
-                Visit Store
-              </Button>
+              </a>
+              <a href="#contact" className="inline-flex items-center gap-2 rounded-md border border-primary px-6 py-3 font-semibold text-primary hover:bg-primary hover:text-primary-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all" aria-label="Get help">
+                <PhoneCall className="w-5 h-5" />
+                Get Help
+              </a>
+              <a href="#contact" className="inline-flex items-center gap-2 rounded-md bg-secondary/30 px-6 py-3 font-semibold text-foreground hover:bg-secondary/50 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all" aria-label="Call technician now">
+                <PhoneCall className="w-5 h-5" />
+                Call Technician Now
+              </a>
             </div>
 
             {/* Contact Cards */}
@@ -86,7 +76,7 @@ const HeroSection = () => {
                   <PhoneCall className="w-5 h-5 text-primary" />
                   <div>
                     <p className="text-sm font-medium text-foreground">Inthyaz</p>
-                    <p className="text-lg font-display font-bold text-primary">77298 44661</p>
+                    <p className="text-lg font-display font-bold text-primary">83319 38147</p>
                   </div>
                 </div>
               </div>
