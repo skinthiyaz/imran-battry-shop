@@ -24,6 +24,17 @@ const ContactSection = () => {
           </p>
         </div>
 
+        {/* Quick Actions */}
+        <div className="flex flex-wrap gap-3 mb-8">
+          <a href="tel:+919133939199" className="inline-flex items-center rounded-md bg-[#7CC242] px-5 py-3 font-semibold text-black hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-lime-400" aria-label="Call Bhart Traders now">Call Now</a>
+          <a href="https://wa.me/919133939199?text=Hi%20Bhart%20Traders%2C%20I%20need%20battery%20help." className="inline-flex items-center rounded-md border border-[#7CC242] px-5 py-3 font-semibold text-[#7CC242] hover:bg-[#7CC242] hover:text-black focus:outline-none focus:ring-2 focus:ring-lime-400" aria-label="Chat on WhatsApp with Bhart Traders" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+        </div>
+
+        <div className="space-y-2 mb-8">
+          <p>Imran: <a className="underline" href="tel:+919133939199">+91 91339 39199</a></p>
+          <p>Inthiyaz: <a className="underline" href="tel:+918331938147">+91 83319 38147</a></p>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8 animate-fade-up">
@@ -178,27 +189,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Quick Actions */}
-            <div className="flex gap-3">
-              <a 
-                href="tel:+919133939199" 
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
-                aria-label="Call Bhart Traders now"
-              >
-                <Phone className="w-5 h-5" />
-                Call Now
-              </a>
-              <a 
-                href="https://wa.me/919133939199?text=Hi%20Bhart%20Traders%2C%20I%20need%20battery%20help." 
-                className="inline-flex items-center gap-2 rounded-md border border-primary px-6 py-3 font-semibold text-primary hover:bg-primary hover:text-primary-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
-                aria-label="Chat on WhatsApp with Bhart Traders"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MessageSquare className="w-5 h-5" />
-                Chat on WhatsApp
-              </a>
-            </div>
           </div>
         </div>
       </div>
