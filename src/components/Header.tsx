@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           <div>
             <h1 className="font-display font-black text-xl text-foreground">
-              BHART TRADERS
+              BHARAT TRADERS
             </h1>
             <p className="text-xs text-muted-foreground font-medium">
               Authorized Battery Dealer
@@ -54,9 +54,12 @@ const Header = () => {
               WhatsApp
             </Button>
           </a>
-          <Button variant="hero" size="sm">
-            Jump Start
-          </Button>
+          <a href="tel:+919133939199" aria-label="Call 9133939199">
+            <Button variant="hero" size="sm">
+              <Phone className="w-4 h-4" />
+              Call Now
+            </Button>
+          </a>
         </div>
       </div>
     </header>

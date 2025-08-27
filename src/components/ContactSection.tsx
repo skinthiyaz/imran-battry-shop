@@ -30,7 +30,7 @@ const ContactSection = () => {
             {/* Store Info */}
             <div className="bg-card border border-border rounded-xl p-8">
               <h3 className="font-display font-bold text-2xl text-foreground mb-6">
-                BHART TRADERS
+                BHARAT TRADERS
               </h3>
               
               {/* Address */}
@@ -189,7 +189,7 @@ const ContactSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                  aria-label="Chat on WhatsApp with Bhart Traders"
+                  aria-label="Chat on WhatsApp with Bharat Traders"
                 >
                   <MessageSquare className="w-5 h-5" />
                   Chat on WhatsApp

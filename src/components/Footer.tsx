@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
               <div>
                 <h2 className="font-display font-black text-2xl text-foreground">
-                  BHART TRADERS
+                  BHARAT TRADERS
                 </h2>
                 <p className="text-sm text-muted-foreground font-medium">
                   Authorized Battery Dealer
@@ -127,7 +127,7 @@ const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2024 BHART TRADERS. All rights reserved.
+              © 2024 BHARAT TRADERS. All rights reserved.
             </p>
             <div className="flex items-center gap-1 text-sm text-muted-foreground">
               <span>Serving Ongole with</span>

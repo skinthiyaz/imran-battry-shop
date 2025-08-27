@@ -88,7 +88,7 @@ const HeroSection = () => {
             <div className="relative overflow-hidden rounded-2xl border border-primary/20 shadow-2xl">
               <img 
                 src={heroImage} 
-                alt="BHART TRADERS - Premium Battery Shop in Ongole" 
+                alt="BHARAT TRADERS - Premium Battery Shop in Ongole" 
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent"></div>
