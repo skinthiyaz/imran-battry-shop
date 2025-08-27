@@ -64,7 +64,7 @@ const ContactSection = () => {
               </div>
 
               <a 
-                href="https://www.google.com/maps/place/Bharat+Traders/@15.5533869,80.0571497,17z/data=!3m1!4b1!4m6!3m5!1s0x3a4b002bb3a55151:0x41ae7db0c86ac357!8m2!3d15.5533869!4d80.0571497!16s%2Fg%2F11v06xpv4f?entry=ttu" 
+                href="https://maps.app.goo.gl/G7Q15yTbnQEsTpfT6" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
@@ -125,10 +125,14 @@ const ContactSection = () => {
                     <h4 className="font-display font-semibold text-foreground">Imran</h4>
                     <p className="text-2xl font-display font-bold text-primary">91339 39199</p>
                   </div>
-                  <Button variant="call" size="sm">
+                  <a 
+                    href="tel:+919133939199"
+                    className="inline-flex items-center gap-1 rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                    aria-label="Call Imran"
+                  >
                     <Phone className="w-4 h-4" />
                     Call
-                  </Button>
+                  </a>
                 </div>
               </div>
 
@@ -141,10 +145,14 @@ const ContactSection = () => {
                     <h4 className="font-display font-semibold text-foreground">Inthyaz</h4>
                     <p className="text-2xl font-display font-bold text-primary">83319 38147</p>
                   </div>
-                  <Button variant="call" size="sm">
+                  <a 
+                    href="tel:+918331938147"
+                    className="inline-flex items-center gap-1 rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                    aria-label="Call Inthiyaz"
+                  >
                     <Phone className="w-4 h-4" />
                     Call
-                  </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -176,34 +184,19 @@ const ContactSection = () => {
                     Get instant answers to your battery questions
                   </p>
                 </div>
-                <Button variant="hero" size="lg" className="w-full">
+                <a 
+                  href="https://wa.me/919133939199?text=Hello%2C%20I%27d%20like%20to%20book%20a%20service"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                  aria-label="Chat on WhatsApp with Bhart Traders"
+                >
                   <MessageSquare className="w-5 h-5" />
                   Chat on WhatsApp
-                </Button>
+                </a>
               </div>
             </div>
 
-            {/* Quick Actions */}
-            <div className="flex gap-3">
-              <a 
-                href="tel:+919133939199" 
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
-                aria-label="Call Bhart Traders now"
-              >
-                <Phone className="w-5 h-5" />
-                Call Now
-              </a>
-              <a 
-                href="https://wa.me/919133939199?text=Hello%2C%20I%27d%20like%20to%20book%20a%20service" 
-                className="inline-flex items-center gap-2 rounded-md border border-primary px-6 py-3 font-semibold text-primary hover:bg-primary hover:text-primary-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
-                aria-label="Chat on WhatsApp with Bhart Traders"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MessageSquare className="w-5 h-5" />
-                Chat on WhatsApp
-              </a>
-            </div>
           </div>
         </div>
       </div>
