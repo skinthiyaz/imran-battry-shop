@@ -6,7 +6,7 @@ const Header = () => {
     <header className="bg-card border-b border-border/50 backdrop-blur-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1">
           <div className="relative">
             <Battery className="w-8 h-8 text-primary animate-charge" />
             <Zap className="w-4 h-4 text-accent absolute -top-1 -right-1" />
@@ -41,18 +41,18 @@ const Header = () => {
         </nav>
 
         {/* Actions */}
-        <div className="flex items-center gap-3">
-            <a href="tel:+919133939199" aria-label="Call 9133939199">
-            <Button variant="hero" size="sm">
-              <Phone className="w-4 h-4" />
-              Call Now
-            </Button>
-          </a>
-          <a href="https://wa.me/919133939199?text=Hi%20I%20need%20assistance" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp 9133939199">
-            <Button variant="call" size="sm">
-              <MessageSquare className="w-4 h-4" />
-              WhatsApp
-            </Button>
+        <div className="flex flex-col md:flex-row items-center gap-2  md:w-auto">
+      <a href="tel:+919133939199" aria-label="Call 9133939199" className=" md:w-auto">
+        <Button variant="hero" size="sm" className="w-full md:w-auto">
+          <Phone className="w-4 h-4" />
+          Call Now
+        </Button>
+      </a>
+      <a href="https://wa.me/919133939199?text=Hi%20I%20need%20assistance" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp 9133939199" className="w-full md:w-auto">
+        <Button variant="call" size="sm" className="w-full md:w-auto">
+          <MessageSquare className="w-4 h-4" />
+          WhatsApp
+        </Button>
           </a>
        
         </div>
