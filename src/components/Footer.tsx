@@ -99,7 +99,7 @@ const Footer = () => {
                   <Phone className="w-4 h-4 text-primary" />
                   <span className="text-sm font-medium text-foreground">Inthyaz</span>
                 </div>
-                <p className="text-lg font-display font-bold text-primary">77298 44661</p>
+                <p className="text-lg font-display font-bold text-primary">8331938147</p>
               </div>
             </div>
           </div>
@@ -127,12 +127,12 @@ const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2024 BHARAT TRADERS. All rights reserved.
+              © 2024 BHARAT TRADERS Sahik Imran. All rights reserved.
             </p>
             <div className="flex items-center gap-1 text-sm text-muted-foreground">
               <span>Serving Ongole with</span>
               <Battery className="w-4 h-4 text-primary mx-1" />
-              <span>since 2020</span>
+              <span>since 1986</span>
             </div>
           </div>
         </div>

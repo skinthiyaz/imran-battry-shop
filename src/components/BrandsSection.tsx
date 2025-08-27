@@ -27,7 +27,7 @@ const brands = [
 
 const BrandsSection = () => {
   return (
-    <section id="brands" className="py-20 bg-gradient-dark">
+    <section id="brands" className="py-12 bg-gradient-dark">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-up">

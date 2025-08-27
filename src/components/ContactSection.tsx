@@ -11,7 +11,7 @@ import { Button } from "./ui/button";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-dark">
+    <section id="contact" className="py-12 bg-gradient-dark">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-up">

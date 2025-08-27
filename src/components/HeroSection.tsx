@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-circuit opacity-40"></div>
       
       {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20">
+      <div className="relative z-10 container mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
           <div className="space-y-8 animate-fade-up">

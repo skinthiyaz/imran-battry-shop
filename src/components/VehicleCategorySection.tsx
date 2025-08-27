@@ -62,7 +62,7 @@ const categories = [
 
 const VehicleCategorySection = () => {
   return (
-    <section id="products" className="py-20 bg-background">
+    <section id="products" className="py-12 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-up">
@@ -119,10 +119,10 @@ const VehicleCategorySection = () => {
               </div>
               
               {/* Arrow */}
-              <div className="flex items-center text-primary group-hover:translate-x-1 transition-transform">
+              {/* <div className="flex items-center text-primary group-hover:translate-x-1 transition-transform">
                 <span className="text-sm font-medium">Explore</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
