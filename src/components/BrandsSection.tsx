@@ -106,9 +106,14 @@ const BrandsSection = () => {
                     View {brand.name} Batteries
                   </a>
                 ) : (
-                  <Button variant="outline" size="lg" className="w-full">
+                  <a 
+                    href="https://www.google.com/maps/place/Bharat+Traders/@15.5533869,80.0571497,17z/data=!3m1!4b1!4m6!3m5!1s0x3a4b002bb3a55151:0x41ae7db0c86ac357!8m2!3d15.5533869!4d80.0571497!16s%2Fg%2F11v06xpv4f?entry=ttu" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full rounded-md border border-border px-4 py-2 text-sm font-medium text-foreground hover:bg-accent hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                  >
                     View {brand.name} Batteries
-                  </Button>
+                  </a>
                 )}
               </div>
             </div>

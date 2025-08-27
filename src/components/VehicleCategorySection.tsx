@@ -142,9 +142,9 @@ const VehicleCategorySection = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 ml-4">
-              <button className="px-6 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-display font-semibold">
+              <a href="#contact" aria-label="Go to contact" className="px-6 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-display font-semibold inline-flex items-center justify-center">
                 Get Help
-              </button>
+              </a>
             </div>
           </div>
         </div>

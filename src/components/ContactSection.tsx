@@ -63,10 +63,15 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <Button variant="hero" size="lg" className="w-full">
+              <a 
+                href="https://www.google.com/maps/place/Bharat+Traders/@15.5533869,80.0571497,17z/data=!3m1!4b1!4m6!3m5!1s0x3a4b002bb3a55151:0x41ae7db0c86ac357!8m2!3d15.5533869!4d80.0571497!16s%2Fg%2F11v06xpv4f?entry=ttu" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 font-semibold text-primary-foreground hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+              >
                 <Navigation className="w-5 h-5" />
                 Get Directions
-              </Button>
+              </a>
             </div>
 
             {/* Services Highlight */}
@@ -189,7 +194,7 @@ const ContactSection = () => {
                 Call Now
               </a>
               <a 
-                href="https://wa.me/919133939199?text=Hi%20Bhart%20Traders%2C%20I%20need%20battery%20help." 
+                href="https://wa.me/919133939199?text=Hello%2C%20I%27d%20like%20to%20book%20a%20service" 
                 className="inline-flex items-center gap-2 rounded-md border border-primary px-6 py-3 font-semibold text-primary hover:bg-primary hover:text-primary-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all flex-1 justify-center"
                 aria-label="Chat on WhatsApp with Bhart Traders"
                 target="_blank"

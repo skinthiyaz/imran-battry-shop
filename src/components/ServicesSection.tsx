@@ -107,10 +107,12 @@ const ServicesSection = () => {
           <p className="text-muted-foreground mb-6">
             Our technicians are available 24/7 for emergency battery services
           </p>
-          <Button variant="hero" size="xl">
-            <Zap className="w-5 h-5" />
-            Call Technician Now
-          </Button>
+          <a href="#contact" aria-label="Go to contact">
+            <Button variant="hero" size="xl">
+              <Zap className="w-5 h-5" />
+              Call Technician Now
+            </Button>
+          </a>
         </div>
       </div>
     </section>

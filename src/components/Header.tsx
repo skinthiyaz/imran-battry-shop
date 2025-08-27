@@ -42,14 +42,18 @@ const Header = () => {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
-          <Button variant="ghost-light" size="sm" className="hidden sm:flex">
-            <Phone className="w-4 h-4" />
-            Call Now
-          </Button>
-          <Button variant="call" size="sm">
-            <MessageSquare className="w-4 h-4" />
-            WhatsApp
-          </Button>
+          <a href="tel:+919133939199" aria-label="Call 9133939199">
+            <Button variant="ghost-light" size="sm" className="hidden sm:flex">
+              <Phone className="w-4 h-4" />
+              Call Now
+            </Button>
+          </a>
+          <a href="https://wa.me/919133939199?text=Hi%20I%20need%20assistance" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp 9133939199">
+            <Button variant="call" size="sm">
+              <MessageSquare className="w-4 h-4" />
+              WhatsApp
+            </Button>
+          </a>
           <Button variant="hero" size="sm">
             Jump Start
           </Button>

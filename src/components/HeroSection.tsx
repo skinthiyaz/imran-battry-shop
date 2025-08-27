@@ -54,7 +54,7 @@ const HeroSection = () => {
                 <PhoneCall className="w-5 h-5" />
                 Get Help
               </a>
-              <a href="#contact" className="inline-flex items-center gap-2 rounded-md bg-secondary/30 px-6 py-3 font-semibold text-foreground hover:bg-secondary/50 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all" aria-label="Call technician now">
+              <a href="tel:+919133939199" className="inline-flex items-center gap-2 rounded-md bg-secondary/30 px-6 py-3 font-semibold text-foreground hover:bg-secondary/50 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all" aria-label="Call technician now">
                 <PhoneCall className="w-5 h-5" />
                 Call Technician Now
               </a>
